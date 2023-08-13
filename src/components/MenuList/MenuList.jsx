@@ -11,6 +11,7 @@ const MenuList = (props) => {
           key={difficulty}
           onClick={props.onItemClick}
           difficulty={difficulty}
+          isSelected={props.difficulty === difficulty}
         />
       ))}
     </div>
